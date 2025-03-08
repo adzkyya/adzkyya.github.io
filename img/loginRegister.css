@@ -1,0 +1,91 @@
+body {
+    font-family: helvetica;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffaf3;
+}.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}.image-container {
+    flex: 1;
+    width: 70%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background:local;
+    border-radius: 10px 0px 0px 10px;
+    background: url('img/log.jpeg') center/cover no-repeat;
+} .brand {
+    font-size: 24px;
+    font-weight: bold;
+}.location {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}.description {
+    font-size: 14px;
+}.form-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}.welcome {
+    font-size: 28px;
+    margin-bottom: 10px;
+} .subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+} table {
+    margin: 0 auto;
+    width: 100%;
+} td {
+    padding: 10px;
+    font-size: 14px;
+} input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} .login-btn {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ccc;;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+} .or {
+    margin: 15px 0;
+} .google-btn, .apple-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ccc;;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}.register-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:transparent;
+    font-weight: bold;
+    border: 1px solid #ccc;;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+

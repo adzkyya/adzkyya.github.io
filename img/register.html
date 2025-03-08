@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="loginRegister.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+        </div>
+
+        <div class="form-container">
+            <h2 class="welcome">Create an Account</h2>
+            <p class="subtitle">Join us and explore new destinations.</p>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="fullname">Full Name</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="fullname" placeholder="Enter your full name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td><input type="email" id="email" placeholder="Enter your email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td>:</td>
+                        <td><input type="password" id="password" placeholder="Create a password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="profile-pic">Profile Picture</label></td>
+                        <td>:</td>
+                        <td><input type="file" id="profile-pic"></td>
+                    </tr>
+                </table>
+
+                <button type="submit" class="register-btn">Register</button>
+                <p class="or">or</p>
+                <button class="google-btn">Sign up with Google</button>
+                <button class="apple-btn">Sign up with Apple</button>
+                <p class="login-link">Already have an account? <a href="login.html" style="text-decoration: none; color: #413526;">Log In</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

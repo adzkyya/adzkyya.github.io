@@ -1,0 +1,69 @@
+* {
+    background-color:#fffaf3;
+    font-family: 'Helvetica';
+} body {
+    padding: 10px 40px 40px 40px;
+} li, a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+} header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} header p {
+    letter-spacing: 1.5px;
+    font-size: large;
+} .logo {
+    cursor: pointer;
+    width: 72px;
+} .nav_link {
+    list-style:none;
+} .nav_link li {
+    display: inline-block;
+    padding: 15px;
+} p {
+    text-align: left;
+    font-size: medium;
+    line-height: 1.5;
+} .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+} .image-card {
+    position: relative;
+    padding-top: 25px;
+} .image-card img {
+    width: 72vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+} .image-card a {
+    line-height: 3;
+} .image-text {
+    position:relative;
+    width: 100%;
+    font-size: 18pt;
+    color: black;
+    text-align: left;
+} .contact {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+} .read-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+}
